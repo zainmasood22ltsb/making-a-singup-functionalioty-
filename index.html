@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="register">
+    <h1>register</h1>
+    <table>
+        <tr>
+            <td>first name</td>
+            <td> <input type="text" id="firstname" placeholder="enter first name"></td>
+        </tr>
+        <tr>
+            <td>last name</td>
+            <td> <input type="text" id="lastname" placeholder="enter last name"></td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td> <input type="email" id="email" placeholder="enter email"></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td> <input type="password" id="password" placeholder="enter password"></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td> <input type="password" id="cpassword" placeholder="enter password"></td>
+        </tr>
+        <tr>
+            <td>
+
+                <button onclick="register()"> 
+                    register
+                </button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="login">
+   <h1>login</h1>
+    <table>
+
+        <tr>
+            <td>email</td>
+            <td> <input type="email" id="lemail" placeholder="enter email"></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td> <input type="password" id="lpassword" placeholder="enter password"></td>
+        </tr>
+        <tr>
+            <td>
+
+                <button onclick="login()">
+                    login
+                </button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="result" style="border: 2px solid black; width: 50px; margin: 0 auto; padding: 10px; margin-top: 10px;height: 50px;">
+   
+    <p id="result"></p>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
